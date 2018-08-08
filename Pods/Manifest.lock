@@ -1,0 +1,21 @@
+PODS:
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.18.0.1)
+
+DEPENDENCIES:
+  - WeexPluginLoader
+  - WeexSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WeexPluginLoader
+    - WeexSDK
+
+SPEC CHECKSUMS:
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: ffeb317af53780ba2d3b1ce501ce9b6b020d667a
+
+PODFILE CHECKSUM: 0913a891a01284e02e01a74f61cce9327e91958b
+
+COCOAPODS: 1.5.3
