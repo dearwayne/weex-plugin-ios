@@ -1,21 +1,27 @@
 PODS:
+  - LBXScan/LBXNative (2.3):
+    - LBXScan/Types (~> 2.2)
+  - LBXScan/Types (2.3)
   - WeexPluginLoader (0.0.1.9.1):
     - WeexSDK
   - WeexSDK (0.18.0.1)
 
 DEPENDENCIES:
+  - LBXScan/LBXNative
   - WeexPluginLoader
   - WeexSDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - LBXScan
     - WeexPluginLoader
     - WeexSDK
 
 SPEC CHECKSUMS:
+  LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
   WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
   WeexSDK: ffeb317af53780ba2d3b1ce501ce9b6b020d667a
 
-PODFILE CHECKSUM: 0913a891a01284e02e01a74f61cce9327e91958b
+PODFILE CHECKSUM: 159b1ba54575901ec5ef5e1097927d37757172d3
 
 COCOAPODS: 1.5.3

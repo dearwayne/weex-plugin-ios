@@ -1,9 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/WeexPluginLoader"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LBXScan" "${PODS_CONFIGURATION_BUILD_DIR}/WeexSDK" "${PODS_ROOT}/WeexPluginLoader"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/WeexPluginLoader" "${PODS_ROOT}/Headers/Public/WeexSDK"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/WeexSDK"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/WeexPluginLoader" -isystem "${PODS_ROOT}/Headers/Public/WeexSDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"WeexSDK" -l"stdc++" -framework "AVFoundation" -framework "AVKit" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreText" -framework "Foundation" -framework "GLKit" -framework "JavaScriptCore" -framework "MediaPlayer" -framework "OpenGLES" -framework "QuartzCore" -framework "WeexPluginLoader"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/LBXScan/LBXScan.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/WeexSDK/WeexSDK.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"stdc++" -framework "CoreData" -framework "Foundation" -framework "LBXScan" -framework "WeexPluginLoader" -framework "WeexSDK"
 OTHER_LINK_FLAG = $(inherited) -ObjC
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
