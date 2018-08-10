@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <WeexSDK/WeexSDK.h>
 
-@interface WPQRcodeModule : NSObject<WXModuleProtocol>
+@interface WPQRcodeModule:NSObject<WXModuleProtocol>
 
 @end
