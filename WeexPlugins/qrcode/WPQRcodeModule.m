@@ -22,8 +22,16 @@ WX_EXPORT_METHOD_SYNC(@selector(createQR:))
     CGFloat height = [WXConvert CGFloat:options[@"size"][@"height"]];
     CGSize size = CGSizeMake(width, height);
     UIColor *color = [WXConvert UIColor:options[@"color"]];
-    UIColor *bkcolor = [WXConvert UIColor:options[@"backgroundColor"]];
-    return [LBXScanNative createQRWithString:text QRSize:size QRColor:color bkColor:bkcolor];
+    UIColor *bkColor = [WXConvert UIColor:options[@"bkColor"]];
+    NSString *bkImage = [WXConvert NSString:options[@"bkImage"][@"url"]];
+    if (bkImage) {
+        CGFloat bkWidth = [WXConvert CGFloat:options[@"bkImage"][@"width"]];
+        CGFloat bkHeight = [WXConvert CGFloat:options[@"bkImage"][@"height"]];
+        CGFloat offsetX = [WXConvert CGFloat:options[@"bkImage"][@"offsetX"]];
+        CGFloat offsetY = [WXConvert CGFloat:options[@"bkImage"][@"offsetY"]];
+        UIImage *qrImage = [LBXScanNative createQRWithString:text QRSize:size QRColor:color bkColor:bkColor];
+    }
+    return [LBXScanNative createQRWithString:text QRSize:size QRColor:color bkColor:bkColor];
 }
 
 @end

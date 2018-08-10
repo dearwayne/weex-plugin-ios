@@ -1,27 +1,270 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BindingX (1.0.1):
+    - WeexPluginLoader
+    - WeexSDK
+  - BMBaseLibrary (1.2.8):
+    - BMBaseLibrary/BMComponent (= 1.2.8)
+    - BMBaseLibrary/BMController (= 1.2.8)
+    - BMBaseLibrary/BMCustomUI (= 1.2.8)
+    - BMBaseLibrary/BMDebug (= 1.2.8)
+    - BMBaseLibrary/BMDevice (= 1.2.8)
+    - BMBaseLibrary/BMExtension (= 1.2.8)
+    - BMBaseLibrary/BMHandler (= 1.2.8)
+    - BMBaseLibrary/BMManager (= 1.2.8)
+    - BMBaseLibrary/BMModel (= 1.2.8)
+    - BMBaseLibrary/BMModule (= 1.2.8)
+    - BMBaseLibrary/BMNetwork (= 1.2.8)
+    - BMBaseLibrary/BMTransition (= 1.2.8)
+    - BMBaseLibrary/BMWeexExtension (= 1.2.8)
+    - BMBaseLibrary/ErosApp (= 1.2.8)
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMComponent (1.2.8):
+    - CTMediator (= 13)
+    - FSCalendar (= 2.7.8)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMController (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMCustomUI (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMDebug (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMDevice (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMExtension (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMHandler (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMManager (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMModel (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMModule (1.2.8):
+    - BindingX (= 1.0.1)
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - Realm (= 3.1.0)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - TZImagePickerController (= 1.9.8)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMNetwork (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMTransition (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/BMWeexExtension (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - BMBaseLibrary/ErosApp (1.2.8):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - CTMediator (13)
+  - FSCalendar (2.7.8)
   - LBXScan/LBXNative (2.3):
     - LBXScan/Types (~> 2.2)
   - LBXScan/Types (2.3)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.12)
+  - Realm (3.1.0):
+    - Realm/Headers (= 3.1.0)
+  - Realm/Headers (3.1.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SocketRocket (0.4.2)
+  - SSZipArchive (1.6.2)
+  - TZImagePickerController (1.9.8)
   - WeexPluginLoader (0.0.1.9.1):
     - WeexSDK
   - WeexSDK (0.18.0.1)
+  - YTKNetwork (2.0.3):
+    - AFNetworking (~> 3.0)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
+  - BMBaseLibrary (from `https://github.com/bmfe/Benmu-iOS-Library.git`, tag `1.2.8`)
   - LBXScan/LBXNative
   - WeexPluginLoader
   - WeexSDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BindingX
+    - CTMediator
+    - FSCalendar
     - LBXScan
+    - Masonry
+    - MJRefresh
+    - Realm
+    - SDWebImage
+    - SocketRocket
+    - SSZipArchive
+    - TZImagePickerController
     - WeexPluginLoader
     - WeexSDK
+    - YTKNetwork
+    - YYModel
+    - YYText
+
+EXTERNAL SOURCES:
+  BMBaseLibrary:
+    :git: https://github.com/bmfe/Benmu-iOS-Library.git
+    :tag: 1.2.8
+
+CHECKOUT OPTIONS:
+  BMBaseLibrary:
+    :git: https://github.com/bmfe/Benmu-iOS-Library.git
+    :tag: 1.2.8
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BindingX: 82936549871ff4c936abcab62f8fecc84acfaa52
+  BMBaseLibrary: 81a7c535463e560062cd866d80a62aba5ca000af
+  CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
+  FSCalendar: 09369a2bf554ba71cd8e8cfb627e2df22a2c2af4
   LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  SSZipArchive: 428eb1ac8d37dd133404d30f422b23958c1f9acc
+  TZImagePickerController: 3b9413ae5d049b1fdc5b0c720ad283f35b679a50
   WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
   WeexSDK: ffeb317af53780ba2d3b1ce501ce9b6b020d667a
+  YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 159b1ba54575901ec5ef5e1097927d37757172d3
+PODFILE CHECKSUM: cca00f4b0f0e402c7221e53be0f648f227515fe2
 
 COCOAPODS: 1.5.3

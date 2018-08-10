@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AEA0E7BA9EA88641D6FDFE9 /* Pods_WeexPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD7D7483DA662194D9D1336 /* Pods_WeexPlugins.framework */; };
 		909E2CC1211B5BBD006C7061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 909E2CC0211B5BBD006C7061 /* AppDelegate.m */; };
 		909E2CC4211B5BBD006C7061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909E2CC3211B5BBD006C7061 /* ViewController.m */; };
 		909E2CC7211B5BBD006C7061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909E2CC5211B5BBD006C7061 /* Main.storyboard */; };
@@ -15,10 +14,11 @@
 		909E2CCC211B5BC0006C7061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909E2CCA211B5BC0006C7061 /* LaunchScreen.storyboard */; };
 		909E2CCF211B5BC0006C7061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 909E2CCE211B5BC0006C7061 /* main.m */; };
 		909E2CD8211B5C7B006C7061 /* WPQRcodeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 909E2CD7211B5C7B006C7061 /* WPQRcodeModule.m */; };
+		D0CF158F93F9AD7940E6A29C /* libPods-WeexPlugins.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E09FA7F0FCD8BA1881C306F /* libPods-WeexPlugins.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8BD7D7483DA662194D9D1336 /* Pods_WeexPlugins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeexPlugins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E09FA7F0FCD8BA1881C306F /* libPods-WeexPlugins.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexPlugins.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		909E2CBC211B5BBD006C7061 /* WeexPlugins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeexPlugins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		909E2CBF211B5BBD006C7061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		909E2CC0211B5BBD006C7061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEA0E7BA9EA88641D6FDFE9 /* Pods_WeexPlugins.framework in Frameworks */,
+				D0CF158F93F9AD7940E6A29C /* libPods-WeexPlugins.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 		981EE0620F40D149EADD18A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BD7D7483DA662194D9D1336 /* Pods_WeexPlugins.framework */,
+				4E09FA7F0FCD8BA1881C306F /* libPods-WeexPlugins.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 				909E2CB8211B5BBD006C7061 /* Sources */,
 				909E2CB9211B5BBD006C7061 /* Frameworks */,
 				909E2CBA211B5BBD006C7061 /* Resources */,
-				9378619A6BDF61931D93F792 /* [CP] Embed Pods Frameworks */,
+				76C05320D00A990161108195 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,24 +176,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9378619A6BDF61931D93F792 /* [CP] Embed Pods Frameworks */ = {
+		76C05320D00A990161108195 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WeexPlugins/Pods-WeexPlugins-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LBXScan/LBXScan.framework",
-				"${BUILT_PRODUCTS_DIR}/WeexSDK/WeexSDK.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeexPlugins/Pods-WeexPlugins-resources.sh",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMComponent/Calendar/Resources/CalendarLeftArrows@2x.png",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMComponent/Calendar/Resources/CalendarLeftArrows@3x.png",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMComponent/Calendar/Resources/CalendarReightArrows@2x.png",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMComponent/Calendar/Resources/CalendarReightArrows@3x.png",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMComponent/Chart/Resources/bm-chart.html",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMComponent/Chart/Resources/echarts.min.js",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMModule/Modal/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMWeexExtension/Resources/arrowInKeyboard@2x.png",
+				"${PODS_ROOT}/BMBaseLibrary/Source/BMWeexExtension/Resources/bm-base.js",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBXScan.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeexSDK.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CalendarLeftArrows@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CalendarLeftArrows@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CalendarReightArrows@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CalendarReightArrows@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bm-chart.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/echarts.min.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arrowInKeyboard@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bm-base.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexPlugins/Pods-WeexPlugins-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexPlugins/Pods-WeexPlugins-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA79009C828893BCC4218380 /* [CP] Check Pods Manifest.lock */ = {

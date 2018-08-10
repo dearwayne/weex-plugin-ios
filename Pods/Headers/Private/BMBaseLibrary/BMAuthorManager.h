@@ -1,0 +1,1 @@
+../../../BMBaseLibrary/Source/BMManager/AuthorLogin/BMAuthorManager.h

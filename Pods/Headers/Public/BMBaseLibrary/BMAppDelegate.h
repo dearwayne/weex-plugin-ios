@@ -1,0 +1,1 @@
+../../../BMBaseLibrary/Source/BMManager/StartConfig/BMAppDelegate.h

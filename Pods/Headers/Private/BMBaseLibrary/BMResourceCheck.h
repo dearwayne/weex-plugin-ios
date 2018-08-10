@@ -1,0 +1,1 @@
+../../../BMBaseLibrary/Source/BMManager/Version/BMResourceCheck.h

@@ -1,0 +1,1 @@
+../../../BMBaseLibrary/Source/BMWeexExtension/WXBridgeManager+BMExtend.h
